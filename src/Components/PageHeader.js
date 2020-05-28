@@ -3,7 +3,7 @@ import { Container, Navbar, Nav, Form, FormControl, Button } from 'react-bootstr
 
 export default function PageHeader(){
   return(
-    <Navbar bg="dark" variant="dark">
+    <Navbar bg="dark" variant="dark" sticky="top">
       <Navbar.Brand href="#home">Navbar</Navbar.Brand>
       <Nav className="mr-auto">
         <Nav.Link href="#home">Home</Nav.Link>

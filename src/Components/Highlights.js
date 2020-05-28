@@ -5,7 +5,7 @@ export default function Highlights(){
   return(
     <CardDeck>
       <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Img variant="top" src="./logo192.png" />
         <Card.Body>
           <Card.Title>Card title</Card.Title>
           <Card.Text>
@@ -18,7 +18,7 @@ export default function Highlights(){
         </Card.Footer>
       </Card>
       <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Img variant="top" src="./logo192.png" />
         <Card.Body>
           <Card.Title>Card title</Card.Title>
           <Card.Text>
@@ -31,7 +31,7 @@ export default function Highlights(){
         </Card.Footer>
       </Card>
       <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Img variant="top" src="./logo192.png" />
         <Card.Body>
           <Card.Title>Card title</Card.Title>
           <Card.Text>

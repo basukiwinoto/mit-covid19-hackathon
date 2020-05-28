@@ -7,6 +7,7 @@ import PageFooter from './Components/PageFooter'
 import Hero from './Components/Hero'
 import Highlights from './Components/Highlights'
 import Features from './Components/Features'
+import Testimonials from './Components/Testimonials'
 import CallToAction from './Components/CallToAction'
 
 // Firebase App (the core Firebase SDK) is always required and
@@ -35,11 +36,14 @@ console.log(firebase.app().name)
 
 function App() {
   return (
-    <Container fluid>
+    <Container fluid className="p-0 m-0">
       <PageHeader />
       <Hero />
-      <Highlights />
-      <Features />
+      <Container>
+        <Highlights />
+        <Features />
+      </Container>
+      <Testimonials />
       <CallToAction />
       <PageFooter />
     </Container>
